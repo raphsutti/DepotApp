@@ -28,6 +28,12 @@ header.main {
   h1 {
     display: none;
   }
+  p {
+    display: inline-block;
+    float: right;
+    color: white;
+    // clear: right;
+  }
 }
 .content {
   margin: 0;

@@ -13,6 +13,7 @@
     <header class="main">
       <%= image_tag 'logo.svg', alt: 'The Pragmatic Bookshelf' %>
       <h1><%= @page_title %></h1>
+      <p><%= Time.now.strftime("Date: %d/%m/%Y Time: %H:%M:%S") %></p>
     </header>
     <section class="content">
       <nav class="side_nav">
