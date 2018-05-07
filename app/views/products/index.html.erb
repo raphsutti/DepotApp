@@ -14,8 +14,8 @@
           <dd><%= truncate(strip_tags(product.description), length: 125) %></dd>
         </dl>
       </td>
-      <td>
-        $<%= product.price %>
+      <td class="price">
+        <%= number_to_currency(product.price) %>
       </td>
         <td class="list_actions">
           <%= link_to 'Show', product %><br />
